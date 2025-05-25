@@ -1,0 +1,37 @@
+.primary-button {
+  border-radius: 8px;
+
+  background: rgb(229, 84, 115);
+  position: relative;
+  width: 177px;
+  height: 64px;
+  counter: white;
+}
+.body {
+  height: 500px;
+  width: 1440px;
+}
+.hero {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 150px;
+  gap: 100px;
+}
+.hero-title {
+  font-size: 60px;
+  font-weight: 800;
+}
+.hero-description {
+  font-size: 18px;
+  font-weight: 400;
+}
+.flower {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
+}
