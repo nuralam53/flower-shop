@@ -12,11 +12,65 @@ header {
   max-width: 1440px;
   margin: 0 auto;
 }
+/* banner section */
 .banner {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.banner-img {
+.banner-img img {
   width: 100%;
+  vertical-align: middle;
+}
+
+.banner-title {
+  font-size: 60px;
+  font-weight: 800px;
+  color: rgb(39, 39, 39);
+}
+
+p {
+  font-size: 13px;
+  font-weight: 400px;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.button {
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  font-size: 15px;
+  font-weight: 700px;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 20px 43px 20px 43px;
+}
+.banner-text * {
+  margin-bottom: 32px;
+  max-width: 525px;
+}
+/* feature section */
+.section-heading {
+  text-align: center;
+}
+.feature-title {
+  font-size: 30px;
+  font-weight: 800px;
+  color: rgb(39, 39, 39);
+  margin-bottom: 16px;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: end;
+}
+.feature {
+  padding: 100px 0;
+}
+.flower-img {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 30px 15px;
+
 }
