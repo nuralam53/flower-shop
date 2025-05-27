@@ -94,36 +94,36 @@ button:hover {
 .img-3 {
   background: rgba(71, 125, 17, 0.15);
 }
-.flower p{
+.flower p {
   font-size: 20px;
-font-weight: 500;
-color: rgb(39, 39, 39);
-text-align: center;
-text-decoration-line: underline;
-margin-top: 30px;
+  font-weight: 500;
+  color: rgb(39, 39, 39);
+  text-align: center;
+  text-decoration-line: underline;
+  margin-top: 30px;
 }
-#service{
-width: 75%;
-border-radius: 8px;
 
-background: rgba(39, 39, 39, 0.05);
-padding: 200px;
-
-}
-.service-container{
+.service-content {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 65px 130px;
+  gap: 80px;
 }
-.hot-deal{
+.service {
+  text-align: center;
+  /* gap: 75px; */
+}
+.hot-deal {
   border-radius: 8px;
 
-background: rgba(229, 84, 115, 0.05);
-height: 620px;
-width: 1440px;
+  background: rgba(229, 84, 115, 0.05);
+  height: 620px;
+  width: 1440px;
 }
-.deal-content{
+.deal-content {
   display: flex;
   justify-content: center;
   align-items: center;
